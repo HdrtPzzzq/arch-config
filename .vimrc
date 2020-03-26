@@ -1,11 +1,3 @@
-" Set rich presence for discord
-call plug#begin('~/.vim/plugged')
-Plug 'anned20/vimsence'
-call plug#end()
-
-" Theme panic sets
-colorscheme panic
-
 " Represent trail space and tabs by dot.
 set list
 set listchars=trail:.
@@ -28,5 +20,3 @@ set number
 
 " Enable use of the mouse for all modes
 set mouse=a
-
-
